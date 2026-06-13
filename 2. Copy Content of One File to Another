@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char source[] = "Operating Systems Lab Program";
+    char destination[100];
+
+    strcpy(destination, source);
+
+    printf("Original Text: %s\n", source);
+    printf("Copied Text: %s\n", destination);
+
+    return 0;
+}
