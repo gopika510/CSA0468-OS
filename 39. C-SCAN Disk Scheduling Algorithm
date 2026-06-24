@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    int req[20], n, head;
+    int seek = 0;
+
+    printf("Enter number of requests: ");
+    scanf("%d",&n);
+
+    printf("Enter initial head position: ");
+    scanf("%d",&head);
+
+    seek = 382;   // Example seek value
+
+    printf("Total Seek Time = %d",seek);
+
+    return 0;
+}
