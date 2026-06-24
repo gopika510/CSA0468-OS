@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int buffer = 0;
+
+    printf("Producer produced item %d\n", ++buffer);
+
+    printf("Consumer consumed item %d\n", buffer--);
+
+    return 0;
+}
