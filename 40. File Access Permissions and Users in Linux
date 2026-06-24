@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("Linux File Permissions\n");
+    printf("----------------------\n");
+
+    printf("Owner : Read Write Execute (rwx)\n");
+    printf("Group : Read Write (rw-)\n");
+    printf("Others: Read Only (r--)\n");
+
+    printf("\nPermission Code: 764\n");
+
+    return 0;
+}
